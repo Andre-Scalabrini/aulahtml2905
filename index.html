@@ -4,88 +4,9 @@
 <title>Site Apresentação</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {
-  box-sizing: border-box;
-}
-
-/* Estilo do body */
-body {
-  font-family: Arial;
-  margin: 0;
-}
-
-/* Heade title */
-.header {
-  padding: 60px;
-  text-align: center;
-  background: #1abc9c;
-  color: white;
-}
-
-/* Estilo navegação superior */
-.navbar {
-  display: flex;
-  background-color: #333;
-}
-
-/* estilo da barra de links */
-.navbar a {
-  color: white;
-  padding: 14px 20px;
-  text-decoration: none;
-  text-align: center;
-}
-
-/* Muda a cor do hover */
-.navbar a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-/* Container coluna */
-.row {  
-  display: flex;
-  flex-wrap: wrap;
-}
-
-/* Cria duas colunas uma do lado da outra */
-/* Barra lateral, coluna esquerda */
-.side {
-  flex: 30%;
-  background-color: #f1f1f1;
-  padding: 20px;
-}
-
-/* Coluna principal */
-.main {
-  flex: 70%;
-  background-color: white;
-  padding: 20px;
-}
-
-/* Fake imagem, Alguém adiciona imagem aqui pelo amor de deus */
-.fakeimg {
-  background-color: #aaa;
-  width: 100%;
-  padding: 20px;
-}
-
-/* Footer */
-.footer {
-  padding: 20px;
-  text-align: center;
-  background: #ddd;
-}
-
-/* Layout responsivo - quando a tela tiver menos de 700px de largura, faça com que as duas colunas se empilhem uma sobre a outra em vez de uma ao lado da outra */
-@media screen and (max-width: 700px) {
-  .row, .navbar {   
-    flex-direction: column;
-  }
-}
-</style>
+<link rel="stylesheet" href="index.css">
 </head>
+
 <body>
 
 <!-- Nota sobre a página -->
@@ -101,37 +22,49 @@ body {
 
 <!-- Barra de navegação, alguém adiciona links reais a esses links please -->
 <div class="navbar">
-  <a href="#">Link</a>
-  <a href="#">Link</a>
-  <a href="#">Link</a>
-  <a href="#">Link</a>
+  <a href="https://youtube.com/shorts/s-fA_zIxrXU?feature=share">Clica aqui</a>
+  <a href="https://www.youtube.com/watch?v=iWp4dVp6fqE">Ou aqui</a>
+  <a href="https://www.youtube.com/watch?v=wDVP4BZ6HyY">Talvez aqui</a>
+  <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Aqui não</a>
 </div>
 
 <!-- Conteúdo grid flexível -->
 <div class="row">
   <div class="side">
     <h2>Sobre nós</h2>
-    <h5>Foto do biopark:</h5>
-    <div class="fakeimg" style="height:200px;">Image</div>
-    <p>lorem ipsum blablablablabla</p>
-    <h3>mais lorem ipsum</h3>
-    <p>Meu deus pra que tanto texto.</p>
-    <div class="fakeimg" style="height:60px;">Image</div><br>
-    <div class="fakeimg" style="height:60px;">Image</div><br>
-    <div class="fakeimg" style="height:60px;">Image</div>
+    <p>O objetivo do Biopark Educação é aprimorar o profissional e qualificá–lo para o mercado de trabalho ao proporcionar oportunidades de crescimento dentro das empresas incubadas no Ecossistema e Região, de acordo com as demandas de mercado, em especial as ciências da vida.</p>
+    <div class="fakeimg">
+      <img src="/img/biopark-polo.jpeg" alt="biopark" height="100%" width="100%">
+    </div>
+    <p>Biopark - Biopark completa seis anos de progresso, educação e inovação</p>
+    <h3>Beneficios</h3>
+    <p>Biopark quer atrair 100 mil estudantes e oferece incentivo para acelerar a construção de imóveis residenciais</p>
+    <div class="fakeimg">
+      <img src="/img/biopark-moradia.png" alt="biopark" height="100%" width="100%">
+    </div><br>
+    <div class="fakeimg">
+      <img src="/img/biopark-unico.jpg" alt="biopark" height="100%" width="100%">
+    </div><br>
+    <div class="fakeimg">
+      <img src="/img/biopark-edu.jpg" alt="biopark" height="100%" width="100%">
+    </div>
   </div>
   <div class="main">
-    <h2>Titulo Header</h2>
-    <h5>Descrição título, 29/05/2023</h5>
-    <div class="fakeimg" style="height:200px;">Image</div>
-    <p>Mais texto</p>
-    <p>Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla</p>
+    <h2>O sucesso</h2>
+    <p>O mundo passa por constantes mudanças que influenciam nossa forma de viver, aprender e fazer negócios. O que essas mudanças têm em comum?</p>
+    <div class="fakeimg">
+      <img src="/img/biopark-sucesso.jpg"biopark" height="100%" width="100%">
+    </div>
+    <h3>BIOPARK - Nosso coração é Inovação</h3>
+    <p>A paixão pela inovação tornou possível a concretização de um sonho: a fundação de um parque tecnológico que reúne educação, pesquisa e negócios.</p>
     <br>
-    <h2>Titulo Header</h2>
-    <h5>Descrição título, 29/05/2023</h5>
-    <div class="fakeimg" style="height:200px;">Image</div>
-    <p>Mais texto</p>
-    <p>Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla</p>
+    <h2>Oportunidade de ingresso</h2>
+    <p>O biopark educação abre incrições para vestibular de inverno2023</p>
+    <div class="fakeimg">
+      <img src="/img/biopark-vestiba.jpg" alt="biopark" height="100%" width="100%">
+    </div>
+    <h2>Nosso aprendizado</h2>
+    <p>O Biopark Educação acredita no ensino moderno e diferenciado liado ao conhecimento de profissionais capacitados e apaixonados pelo que fazem. As estruturas disponíveis e adequadas da instituição proporcionam aos estudantes um local de ensino prático, agradável e propício ao aprendizado.  </p>
   </div>
 </div>
 
