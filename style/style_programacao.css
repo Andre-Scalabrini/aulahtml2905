@@ -1,3 +1,8 @@
+header {
+  background-color: #000000;
+}
+
+
 /* main */
 .main {
     background: url("../img/programacao/programacao-background.png") no-repeat 0 0;
@@ -9,13 +14,15 @@
     min-width: 100%;
     transform: translate(-10%, 8%);
   }
+  
   .main-title {
     margin: 150px 0 50px 0;
   }
+  /* course */
   .course {
     background-color: #242124;
   }
-
+/* area */
   .area {
     background-color: #272830;
   }
@@ -32,7 +39,7 @@
   .card {
     background-color: #191919;
   }
-
+/* teacher */
   .teacher {
     background: url("../img/programacao/programacao-background-2.png");
   }
@@ -43,6 +50,7 @@
   }
 
   @media only screen and (max-width: 992px) {
+    /* main */
     .main img {
         max-width: 100%;
         transform: translate(-5%, 7%);

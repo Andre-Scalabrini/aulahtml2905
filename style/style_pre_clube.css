@@ -1,3 +1,10 @@
+
+header {
+
+background-color: #12315e;
+}
+
+/* main */
 .main {
     background: url("../img/pre-clube/pre-clube-background.png") no-repeat 0 0;
     background-size: cover;
@@ -10,6 +17,7 @@
 .main-title {
   margin: 150px 0 50px 0;
 }
+/* course */
 .course {
   background-color: #397DC9;
   background-size: cover;
@@ -27,10 +35,11 @@
 .area p {
   color: #ffffff;
 }
+/* card */
 .card {
   background-color: #397DC9;
 }
-
+/* teacher */
 .teacher {
   background-color: #397DC9;
 }
@@ -41,6 +50,7 @@ h3 {
 }
 
 @media only screen and (max-width: 992px) {
+  /* main */
   .main img {
     max-width: 100%;
     transform: translate(-5%, 7%);
